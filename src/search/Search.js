@@ -2,12 +2,12 @@ import React from "react";
 import {PageTemplate} from "../components";
 import './search.css'
 
+
 export const Search = () => <PageTemplate><section className="events">
     <div className="main">
-        <img src={"https://garitonkids.com/wp-content/uploads/2020/03/2431_3.png"} width="256" height="180" alt="bread"/>
         <div className="nav">
             <div className="nav-item">
-                <h3> b r e a d </h3>
+                <h3 className="h3-bread"> b r e a d </h3>
                 <br/>
                 <br/>
                 <div className="Bread">

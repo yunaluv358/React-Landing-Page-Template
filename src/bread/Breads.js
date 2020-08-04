@@ -9,9 +9,11 @@ import Navigation from "../components/Navigation";
 export const Breads = () =>
     <div>
         <Navigation />
+        
         <div grid-row="" grid-pad="1.5" grid-gutter="3" grid-responsive="">
+
             <div grid-col="4" grid-pad="1.5" className="bread-title"><h1>B r e a d</h1><br/>
-                <br/>
+
                     <blockquote><i>No eggs, No milk, and No butter.</i><br/>The Bread Blue<br/>using all-natural
                         ingredients only.</blockquote>
 

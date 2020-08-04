@@ -2,11 +2,10 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Services from './services';
-import Gallery from './gallery';
 import Testimonials from './testimonials';
 import Team from './Team';
 import Contact from './contact';
-import $ from 'jquery';
+//import $ from 'jquery';
 import {Breads} from "../bread/Breads";
 import {Features} from "./Features";
 import {About} from './About';

@@ -4,6 +4,10 @@
     border: 0;
 }
 
+.chart1{
+    align-items: center;
+    justify-content: center;
+}
 .userDiv{   }
 .find{  background-color: #f2f2f2; padding:20px 0px 40px 0px; }
 .img.logo{ max-width: 140px; }
@@ -63,3 +67,7 @@
 .chart2 li { display: inline-block; width: 30%; margin: 6px 4px; height: 120px; }
 .chart2 li div.circle { width: 50px; height: 50px; background-size:35px;  }
 .buttonArea button{ max-width: 40%; }
+
+.h3-bread{
+    margin-top:70px;
+}

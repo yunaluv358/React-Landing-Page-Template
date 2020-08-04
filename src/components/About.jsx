@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import Navigation from "./Navigation";
 
 export class About extends Component {
   render() {
     return (
         <div id="about">
+          <Navigation />
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>

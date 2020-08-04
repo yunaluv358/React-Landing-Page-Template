@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 
 export class Navigation extends Component {
   render() {
@@ -6,6 +7,7 @@ export class Navigation extends Component {
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
           <div className="navbar-header">
+
             <button
               type="button"
               className="navbar-toggle collapsed"
@@ -18,8 +20,10 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
+
+            <a className="navbar-brand page-scroll" href="/">
+             breads
+
             </a>{" "}
           </div>
 
@@ -29,38 +33,33 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
-                  Features
+                <a href="About" className="">
+                  소개
                 </a>
               </li>
               <li>
-                <a href="#about" className="page-scroll">
-                  About
+                <a href="Breads" className="page-scroll">
+                  빵 목록
                 </a>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
-                  Services
+                <a href="Search" className="page-scroll">
+                  내게 맞는 빵 찾기
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="page-scroll">
-                  Gallery
+                <a href="Admin" className="page-scroll">
+                  관리자
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
+                <a href="Signin" className="page-scroll">
+                  login
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
-                  Team
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="page-scroll">
-                  Contact
+                <a href="Signup" className="page-scroll">
+                  join
                 </a>
               </li>
             </ul>

@@ -15,6 +15,7 @@ import Search from "../search/Search";
 import Signin from "../member/Signin";
 import {SignUp} from "../member";
 import {AboutDetail} from "./AboutDetail";
+import Bread01 from "../details/Bread01";
 
 
 const Main = () => {
@@ -34,6 +35,7 @@ const Main = () => {
                     <Route path="/signin" component={Signin}/>
                     <Route path="/signup" component={SignUp}/>
                     <Route path="/AboutDetail" component={AboutDetail}/>
+                    <Route path="/Bread01" component={Bread01}/>
 
                 </Switch>
         </BrowserRouter>

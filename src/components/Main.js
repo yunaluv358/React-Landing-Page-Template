@@ -14,6 +14,8 @@ import {Admin} from "../admin";
 import Search from "../search/Search";
 import Signin from "../member/Signin";
 import {SignUp} from "../member";
+import {AboutDetail} from "./AboutDetail";
+
 
 const Main = () => {
     return <div>
@@ -31,6 +33,8 @@ const Main = () => {
                     <Route path="/search" component={Search}/>
                     <Route path="/signin" component={Signin}/>
                     <Route path="/signup" component={SignUp}/>
+                    <Route path="/AboutDetail" component={AboutDetail}/>
+
                 </Switch>
         </BrowserRouter>
     </div>

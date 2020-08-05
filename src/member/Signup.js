@@ -3,9 +3,9 @@ import { PageTemplate} from "../components";
 import './signup.css'
 const Signup = () => <PageTemplate> <section className="signup">
     <div className="main">
-
+        <div className="h3-bread">&nbsp;</div>
     <form>
-
+        <h3 >Sign Up</h3>
         <div className="form-group">
             <label>First name</label>
             <input type="text" className="form-control" placeholder="First name" />

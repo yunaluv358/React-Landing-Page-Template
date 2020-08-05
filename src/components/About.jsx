@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navigation from "./Navigation";
 
+
 export class About extends Component {
   render() {
     return (

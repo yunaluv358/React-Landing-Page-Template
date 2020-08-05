@@ -1,12 +1,12 @@
 {
     "Header": {
 
-        "title": "MORE NO FOR YOU",
+        "title": "The Best Bread For You",
         "paragraph": "Please feel free to enjoy your guilt-free pleasure within us!"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "The Bread Blue bakes the best-tasting bakery with No eggs, No milk, and No butter.\nWe provide the healthy snacks and desserts by using all-natural ingredients only.",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -114,8 +114,8 @@
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "01",
+            "text": "No eggs, No milk, and No butter"
         },
         {
             "icon": "fa fa-bullhorn",

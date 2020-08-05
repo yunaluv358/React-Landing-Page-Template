@@ -181,7 +181,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* App Section */
+/* Header Section */
 .intro {
 	display: table;
 	width: 100%;
@@ -218,8 +218,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
+	padding-top: 250px;
+	padding-bottom: 250px;
 	text-align: center;
 }
 /* Features Section */
@@ -511,16 +511,16 @@ label {
 	box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-color: #777;
+	color: #777;
 }
 .form-control:-moz-placeholder {
-color: #777;
+	color: #777;
 }
 .form-control::-moz-placeholder {
-color: #777;
+	color: #777;
 }
 .form-control:-ms-input-placeholder {
-color: #777;
+	color: #777;
 }
 #contact .contact-item {
 	margin: 20px 0;
@@ -574,7 +574,8 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
-	margin: 50px 0;
+	#about img {
+		margin: 50px 0;
+	}
 }
-}
+

@@ -7,7 +7,7 @@ export const Search = () => <PageTemplate><section className="events">
     <div className="main">
         <div className="nav">
             <div className="nav-item">
-                <h3 className="h3-bread"> b r e a d </h3>
+                <h3 className="h3-bread"> 내게 맞는 빵 찾기 </h3>
                 <br/>
                 <br/>
                 <div className="Bread">

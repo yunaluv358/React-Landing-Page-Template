@@ -16,6 +16,7 @@ import Signin from "../member/Signin";
 import {SignUp} from "../member";
 import {AboutDetail} from "./AboutDetail";
 import Bread01 from "../details/Bread01";
+import Order from "../order/Order";
 
 
 const Main = () => {
@@ -36,6 +37,7 @@ const Main = () => {
                     <Route path="/signup" component={SignUp}/>
                     <Route path="/AboutDetail" component={AboutDetail}/>
                     <Route path="/Bread01" component={Bread01}/>
+                    <Route path="/Order" component={Order}/>
 
                 </Switch>
         </BrowserRouter>

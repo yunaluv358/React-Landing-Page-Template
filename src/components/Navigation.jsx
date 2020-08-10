@@ -53,12 +53,7 @@ export class Navigation extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="Mypage" className="page-scroll">
-                    my cart
-                  </a>
-                </li>
-                <li>
-                  <a href="Mypage" className="page-scroll">
+                  <a href="Order" className="page-scroll">
                     order
                   </a>
                 </li>

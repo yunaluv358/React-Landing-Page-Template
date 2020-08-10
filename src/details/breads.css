@@ -1,3 +1,57 @@
+.col-sm-6 {
+    width: 50%;
+    float: left;
+
+
+}
+
+
+.active a {
+    z-index: 1;
+    border: 1px solid #000;
+    padding: 12px 10px 13px;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+}
+
+
+.sit_opt_added li {
+    padding: 15px 0;
+    padding-right: 220px;
+    margin: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: none;
+    position: relative;
+}
+
+.fotorama__img {
+    width: 345px;
+    height: 345px;
+    left: 0px;
+    top: 0px;
+}
+
+.shop-product-prices {
+    position: relative;
+    padding: 10px 0;
+    background: none;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 20px 0 0;
+}
+
+.shop-description-box {
+    position: relative;
+    padding: 10px 0;
+    background: none;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 20px 0 0;
+}
+
 .bread-title{
     color: #e2a40c;
     text-align: left;

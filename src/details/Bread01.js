@@ -2,6 +2,9 @@ import React from "react";
 import {Route, BrowserRouter, Switch} from 'react-router-dom'
 import {MainHeader, PageTemplate} from "../components";
 import './breads.css'
+import '../order/Order'
+
+
 
 
 
@@ -118,28 +121,35 @@ export const Bread01 = () =>
 
 
                     <div id="sit_ov_btn">
-                        <button type="submit" onClick="document.pressed=this.value;" value="바로구매"
-                                id="sit_btn_buy">바로구매
+                        <button type="button" onClick="location.href='order" className="sit_btn_buy">
+                                바로구매
                         </button>
-                        <button type="submit" onClick="document.pressed=this.value;" value="장바구니"
-                                id="sit_btn_cart">장바구니
-                        </button>
+                        <a href="order" rel="next_page">바로구매</a>
+                        <button onclick="location.href='Order.js'" type="button">text</button>
+                        <input type="button" value="확인" onClick="location.href='Order.js'"/>
+
 
                     </div>
 
                 </div>
 
                     <img src={'https://thebreadblue.com/data/editor/2007/ce5e7872b2037bb54992c26397bf2350_1595490076_5124.png'}/> </div>
-                <div grid-col="x10" grid-pad="1.5" className="">{'/images/fig_campagne.jpg'}</div>
+
             </div>
         </div>
-         <div grid-row="" grid-pad="1.5" grid-gutter="3" grid-responsive="">
-             <div grid-col="4" grid-pad="1.5"></div>
-             <div grid-col="8" grid-pad="1.5" className=""><a href="breads" rel="next_page">prev ︎</a> &nbsp; &nbsp; &nbsp;&nbsp;
-                 <a href="#" rel="next_page">Next ︎</a></div>
-         </div>
+
+
+
+
+
+              <div grid-row="" grid-pad="1.5" grid-gutter="3" grid-responsive="">
+                  <div grid-col="4" grid-pad="1.5"></div>
+                  <div grid-col="8" grid-pad="1.5" className=""><a href="breads" rel="next_page">prev ︎</a> &nbsp; &nbsp; &nbsp;&nbsp;
+                      <a href="#" rel="next_page">Next ︎</a></div>
+              </div>
     </>
     </section></PageTemplate>
+
 
 
 

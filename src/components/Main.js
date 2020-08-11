@@ -17,6 +17,7 @@ import {SignUp} from "../member";
 import {AboutDetail} from "./AboutDetail";
 import Bread01 from "../details/Bread01";
 import Order from "../order/Order";
+import Mypage from "../member/Mypage";
 
 
 const Main = () => {
@@ -38,6 +39,8 @@ const Main = () => {
                     <Route path="/AboutDetail" component={AboutDetail}/>
                     <Route path="/Bread01" component={Bread01}/>
                     <Route path="/Order" component={Order}/>
+                    <Route path="/Mypage" component={Mypage}/>
+                    <Route path="/Contact" component={Contact}/>
 
                 </Switch>
         </BrowserRouter>

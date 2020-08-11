@@ -34,6 +34,9 @@ export class Navigation extends Component {
 
               <a className="navbar-brand page-scroll" href="Search">
                 search  </a>{" "}
+
+              <a className="navbar-brand page-scroll" href="Contact">
+                contact  </a>{" "}
             </div>
 
             <div
@@ -55,6 +58,11 @@ export class Navigation extends Component {
                 <li>
                   <a href="Order" className="page-scroll">
                     order
+                  </a>
+                </li>
+                <li>
+                  <a href="Mypage" className="page-scroll">
+                    mypage
                   </a>
                 </li>
                 <li>
